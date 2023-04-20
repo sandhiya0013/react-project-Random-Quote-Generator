@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lobster&display=swap');
+
+.App {
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    background:url("https://images.unsplash.com/photo-1539979295193-ce3e38c97cd9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8M3x8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=60");
+}
+.quote {
+    background: url(https://images.unsplash.com/photo-1566041510394-cf7c8fe21800?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8d2hpdGUlMjBiYWNrZ3JvdW5kfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=400&q=60);
+    margin-top: 10%;
+    background-size: cover;
+    width: 450px;
+    height: 450px;
+    border-radius: 10px;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.quote h2 {
+    font-size: 2em;
+    font-family: 'Lobster', cursive;
+}
+.quote small {
+    font-size: 1.5em;
+    font-family: 'Dancing Script', cursive;
+}
+.btn {
+	display: block;
+	border: 2px solid #07485d;
+	background:#008CBA;
+	padding: 10px 15px;
+	color:bisque;
+	font-size: 20px;
+	border-radius: 5px;
+	cursor: pointer;
+	outline: none;
+	transition: background 1s, color 1s;
+}
+.btn:hover{
+	background: #008CBA;
+	color: #fff;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
